@@ -1,0 +1,184 @@
+
+body {
+  background-color: white;
+  font: 400 15px 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  display:block;
+  text-align:center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#subtitle{
+  color: #303030;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* my code starts */
+
+/* nav bar styling*/
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  background-color: #ff9be4; /* light pink */
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+/* style when nav is hovered over */
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #ff9be4 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+/* jumbotron styling */
+.jumbotron { 
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f6f6; /* light grey */
+  color: #ff9be4;
+  text-align: center;
+  padding: 80px 25px;
+  margin-bottom: auto;
+}
+
+.btn{
+  border-color: #ff9be4;
+  color: #fff;
+  background-color: #ff9be4;
+}
+
+.btn:hover {
+  border-color: #fff;
+  color: #ff9be4 ;
+  background-color: #fff;
+}
+
+img { 
+  margin: auto;
+  vertical-align: middle;
+  align-items: center;
+
+}
+
+/* main container stlying - maybe all containers? */
+.container-fluid {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  margin: auto;
+}
+
+#services {
+  
+  background-color: #f6f6f6; /* light grey */
+}
+/* logo within container */
+.logo {
+  font-size: 200px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+    padding-top: 5px;
+  }
+}
+
+/* styling of pricing panels */
+.panel {
+  border: 1px solid #ff9be4; 
+  border-radius:0;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer {
+  border: 1px solid #ff9be4;
+  background-color: #ff9be4 !important;
+  color: #ff9be4;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #ff9be4 !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: #fff !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #ff9be4;
+
+}
+
+/* contact styling */
+
+#contact {
+  background-color: #f6f6f6; /* light grey */
+}
+
+/* footer styling */
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ff9be4;
+  display:block;
+  text-align:center;
+}
